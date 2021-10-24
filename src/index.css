@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-auth {
+  background-image: url("@/assets/bg.jpeg");
+  @apply bg-no-repeat;
+}
